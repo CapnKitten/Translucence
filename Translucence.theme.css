@@ -9,3 +9,61 @@
  */
 
 @import url(https://capnkitten.github.io/BetterDiscord/Translucence/css/source.css?v=1.0.1);
+
+
+/* Variables to customize the theme */
+:root {
+  --app-bg: url(https://i.imgur.com/zDgvVNs.png);
+  --app-blur: 6px;
+  --app-margin: 24px;
+  --app-radius: 8px;
+  --app-accent: #d73d3d;
+  --app-accent-rgb: 215,61,61;
+  --app-accent-text: #000;
+
+  --sidebar-color: rgba(0,0,0,0.4);
+  --main-content-color: rgba(0,0,0,0.2);
+
+  --messages-color: rgba(0,0,0,0.4);
+  --messages-radius: var(--app-radius);
+
+  --textarea-color: 0,0,0;
+  --textarea-text-color: #fff;
+  --textarea-radius: 22px;
+
+  --card-color: rgba(0,0,0,0.4);
+  --card-color-hover: rgba(0,0,0,0.5);
+  --card-radius: var(--app-radius);
+
+  --button-color: var(--app-accent);
+  --button-action-color: #000;
+  --button-text-color: var(--app-accent-text);
+  --button-radius: var(--app-radius);
+
+  --popout-color: rgba(0,0,0,0.55);
+  --popout-blur: 5px;
+  --popout-header-opacity: 0.3;
+  --popout-header-shadow: 0px 3px 9px 0px rgba(0,0,0,0.25);
+  --popout-radius: var(--app-radius);
+  --popout-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+
+  --interactive-normal: #aaa;
+  --interactive-hover: #ddd;
+  --interactive-active: #fff;
+  --interactive-muted: #777;
+
+  --channels-default: #dfdfdf;
+  --header-secondary: #dfdfdf;
+
+  --background-modifier-hover: rgba(255,255,255,0.075);
+  --background-modifier-selected: rgba(255,255,255,0.125);
+
+  --channels-default: var(--interactive-normal);
+  --text-muted: var(--interactive-normal);
+
+  --scrollbar-color: 0,0,0;
+  --scrollbar-color-alt: 255,255,255;
+  --scrollbar-opacity: 0.5;
+  --scrollbar-opacity-hover: 0.7;
+  --scrollbar-width: 10px;
+}
