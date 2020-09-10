@@ -13,7 +13,7 @@
 
 /* Variables to customize the theme */
 :root {
-  --app-bg: url(https://i.imgur.com/zDgvVNs.png);
+  --app-bg: url(https://i.imgur.com/U8bSjj5.jpg);
   --app-blur: 6px;
   --app-margin: 24px;
   --app-radius: 8px;
@@ -29,7 +29,6 @@
 
   --textarea-color: 0,0,0;
   --textarea-text-color: #fff;
-  --textarea-radius: 22px;
 
   --card-color: rgba(0,0,0,0.4);
   --card-color-hover: rgba(0,0,0,0.5);
@@ -58,12 +57,8 @@
   --background-modifier-hover: rgba(255,255,255,0.075);
   --background-modifier-selected: rgba(255,255,255,0.125);
 
-  --channels-default: var(--interactive-normal);
-  --text-muted: var(--interactive-normal);
-
   --scrollbar-color: 0,0,0;
   --scrollbar-color-alt: 255,255,255;
   --scrollbar-opacity: 0.5;
   --scrollbar-opacity-hover: 0.7;
-  --scrollbar-width: 10px;
 }
