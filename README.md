@@ -32,7 +32,7 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
 
 ## Variables
 
- - `--app-bg` - The background image for the entire Discord app. Example: `url(https://i.imgur.com/U8bSjj5.jpg))`
+ - `--app-bg` - The background image for the entire Discord app. Example: `url(https://i.imgur.com/U8bSjj5.jpg)`
  - `--app-blur` - The strength of the blur for every element that has one. Example: `6px`
  - `--app-margin` - The margin surrounding the content area. Example: `24px`
  - `--app-radius` - The border radius of the app and every element that has a border radius. Example: `8px`
@@ -58,7 +58,7 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
  - `--popout-header-opacity` - The header opacity for modals/popouts. Example: `0.3`
  - `--popout-header-shadow`- The shadow for headers in modals/popouts. Example: `0px 3px 9px 0px rgba(0,0,0, 0.25)`
  - `--popout-radius` - The border radius for modals/popouts. Example: `8px`
- - `--popout-shadow` - The shadow for modals/popouts. Example: `0 8px 10px 1px rgba(0,0,0,0.14)`
+ - `--popout-shadow` - The shadow for modals/popouts. Example: `0 8px 10px 1px rgba(0,0,0, 0.14)`
  
 &nbsp;
 
