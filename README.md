@@ -2,7 +2,7 @@
 #### A translucent/frosted glass Discord theme
 <hr>
 
-Current version: v1.0.4 (23/09/2020) - **[Download](https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/CapnKitten/Translucence/master/Translucence.theme.css)**
+Current version: v1.0.4.1 (26/09/2020) - **[Download](https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/CapnKitten/Translucence/master/Translucence.theme.css)**
 
 Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Translucence/
 
@@ -64,7 +64,8 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
 
 ## Changelog
 
-#### v1.0.4 (23/09/2020)
+#### v1.0.4.1 (26/09/2020)
+* Support for TypingIndicator by l0c4lh057 added
 * Updated elements that Discord changed (If I missed any, please let me know)
 
 [View previous changelogs](https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/changelog.md)
