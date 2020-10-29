@@ -43,6 +43,7 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
  - `--main-content-color` - The background color of the main content areas. Default: `rgba(0,0,0, 0.2)`
  - `--messages-color` - The background color for messages. Default: `rgba(0,0,0, 0.4)`
  - `--messages-radius` - The border radius for messages. Default: `8px`
+ - `--mention-color` - The border and glow color for mentioned messages. Default: `#d73d3d`
  - `--textarea-color` - The background color for any textareas and inputs. Default: `0,0,0`
  - `--textarea-text-color` - The text color for textareas and inputs. Default: `#fff`
  - `--textarea-radius` - The border radius for textareas (not inputs). Default: `22px`
