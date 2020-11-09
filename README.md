@@ -32,6 +32,7 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
 
 ## Variables
 
+#### App elements
  - `--app-bg` - The background image for the entire Discord app. Default: `url(https://i.imgur.com/U8bSjj5.jpg)`
  - `--app-blur` - The strength of the blur for every element that has one. Default: `6px`
  - `--app-margin` - The margin surrounding the content area. Default: `24px`
@@ -41,21 +42,31 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
  - `--app-accent-text` - The text color for buttons and other various elements with the accent background color. Default: `#000`
  - `--sidebar-color` - The background color of the sidebars. Default: `rgba(0,0,0, 0.4)`
  - `--main-content-color` - The background color of the main content areas. Default: `rgba(0,0,0, 0.2)`
+
+#### Messages
  - `--messages-color` - The background color for messages. Default: `rgba(0,0,0, 0.4)`
  - `--messages-radius` - The border radius for messages. Default: `8px`
  - `--mention-color` - The border and glow color for mentioned messages. Default: `#d73d3d`
+
+#### Textareas and inputs
  - `--textarea-color` - The background color for any textareas and inputs. Default: `0,0,0`
  - `--textarea-text-color` - The text color for textareas and inputs. Default: `#fff`
  - `--textarea-radius` - The border radius for textareas (not inputs). Default: `22px`
  - `--input-height` - The height for inputs. Default: `36px`
  - `--input-radius` - The border radius for inputs (not textareas). Default: `18px`
+
+#### Cards
  - `--card-color` - The background color for cards. Default: `rgba(0,0,0, 0.4)`
  - `--card-color-hover` - The background color for hovering over cards (if there is a hover animation). Default: `rgba(0,0,0, 0.5)`
  - `--card-radius` - The border radius for cards. Default: `8px`
+
+#### Buttons
  - `--button-color` - The background color for most buttons. Default: `#d73d3d`
  - `--button-action-color` - The background color for hovering and clicking on buttons (has a lowered opacity). Default: `#000`
  - `--button-text-color` - The text color for any buttons that use `--button-color`. Default: `#000`
  - `--button-radius` - The border radius for buttons. Default: `8px`
+
+#### Popouts and modals
  - `--popout-color` - The background color for modals/popouts. Default: `rgba(0,0,0, 0.55)`
  - `--popout-blur` - The blur strength for modals/popouts. Default: `5px`
  - `--popout-header-opacity` - The header opacity for modals/popouts. Default: `0.3`
