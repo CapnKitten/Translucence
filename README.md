@@ -2,7 +2,7 @@
 #### A translucent/frosted glass Discord theme
 <hr>
 
-Current version: v1.0.5.3 (12/11/2020) - **[Download](https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/CapnKitten/Translucence/master/Translucence.theme.css)**
+Current version: v1.0.6 (18/11/2020) - **[Download](https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/CapnKitten/Translucence/master/Translucence.theme.css)**
 
 Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Translucence/
 
@@ -47,6 +47,7 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
  - `--messages-color` - The background color for messages. Default: `rgba(0,0,0, 0.4)`
  - `--messages-radius` - The border radius for messages. Default: `8px`
  - `--mention-color` - The border and glow color for mentioned messages. Default: `#d73d3d`
+ - `--mention-alt` - The border and glow color for highlighted messages that aren't mentions. Default: `#5274e9`
 
 #### Textareas and inputs
  - `--textarea-color` - The background color for any textareas and inputs. Default: `0,0,0`
@@ -78,7 +79,8 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
 
 ## Changelog
 
-#### v1.0.5 (15/10/2020)
+#### v1.0.6 (18/11/2020)
+* Inline replies styled
 * Updated elements that Discord changed (If I missed any, please let me know)
 
 [View previous changelogs](https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/changelog.md)
