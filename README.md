@@ -1,4 +1,4 @@
-# Translucence Theme - [![Paypal][paypal-logo]][paypal-url] [![GitHub][github-logo]][github-url] [![Download][download-logo]][download-url]
+# Translucence Theme - [![Paypal][paypal-logo]][paypal-url] [![GitHub][github-logo]][github-url] [![Download][download-logo]][download-url] [![Discord][discord-logo]][discord-url]
 #### A translucent/frosted glass Discord theme
 <hr>
 
@@ -94,3 +94,6 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
 
 [download-logo]: https://img.shields.io/static/v1?label=Download&message=Theme&style=flat&color=blue
 [download-url]: https://capnkitten.github.io/BetterDiscord/Download/?theme=Translucence
+
+[discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
+[discord-url]: https://discord.gg/jzJkA6Z
