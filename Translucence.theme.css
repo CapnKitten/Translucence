@@ -3,7 +3,7 @@
  * @version 1.0.6.3
  * @description A translucent/frosted glass Discord theme
  * @author CapnKitten
- * 
+ *
  * @website http://github.com/CapnKitten
  * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
  * @donate https://paypal.me/capnkitten
@@ -25,7 +25,8 @@
 	--sidebar-color: rgba(0,0,0,0.4);
 	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
 
-	--messages-color: rgba(0,0,0,0.4); /*	-	*/
+	--messages-color: rgba(0,0,0,0.4);
+	--mentiona-alt: #5274e9; /*	-	*/
 
 	--textarea-color: 255,255,255;
 	--textarea-alpha: 0.1;
