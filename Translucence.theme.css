@@ -17,9 +17,8 @@
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px;
-	--app-accent: #1bd58c;
-	--app-accent-image: none;
 	--app-accent-rgb: 27,213,140;
+	--app-accent-image: none;
 	--app-accent-text: #000; /*	-	*/
 
 	--sidebar-color: rgba(0,0,0,0.4);
