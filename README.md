@@ -43,8 +43,10 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
  - `--main-content-color` - The background color of the main content areas. Default: `rgba(0,0,0, 0.2)`
 
 #### Messages
- - `--messages-color` - The background color for messages. Default: `rgba(0,0,0, 0.4)`
- - `--messages-radius` - The border radius for messages. Default: `8px`
+ - `--message-color` - The background color for messages. Default: `rgba(0,0,0, 0.4)`
+ - `--message-radius` - The border radius for messages. Default: `8px`
+ - `--message-padding-top` - The top and bottom padding for messages. Default: `8px`
+ - `--message-padding-side` - The left and right padding for messages. Default: `8px`
  - `--mention-color` - The border and glow color for mentioned messages. Default: `#d73d3d`
  - `--mention-rgb` - The rgb values of the mention color. Default: `215,61,61`
  - `--mention-alt` - The border and glow color for highlighted messages that aren't mentions. Default: `#5274e9`
