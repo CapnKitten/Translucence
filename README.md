@@ -63,6 +63,7 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
 
 #### Textareas and inputs
  - `--textarea-color` - The background color for any textareas and inputs. Default: `0,0,0`
+ - `--textarea-alpha` - The opacity for any textareas and inputs. Default: `0.15`
  - `--textarea-text-color` - The text color for textareas and inputs. Default: `#fff`
  - `--textarea-radius` - The border radius for textareas (not inputs). Default: `22px`
  - `--input-height` - The height for inputs. Default: `36px`
