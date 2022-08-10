@@ -75,6 +75,8 @@ Assets located at: https://github.com/CapnKitten/BetterDiscord/tree/master/Theme
  - `--card-radius` - The border radius for cards. Default: `8px`
 
 #### Buttons
+ - `--button-height` - The height for buttons. Default: `32px`
+ - `--button-padding` - The padding for buttons. Default: `0 16px`
  - `--button-color` - The background color for most buttons. Default: `#d73d3d`
  - `--button-action-color` - The background color for hovering and clicking on buttons (has a lowered opacity). Default: `#000`
  - `--button-text-color` - The text color for any buttons that use `--button-color`. Default: `#000`
