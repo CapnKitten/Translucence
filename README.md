@@ -33,8 +33,6 @@ https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css
 
 ![discord-105](https://user-images.githubusercontent.com/4013216/125158378-c8527080-e13e-11eb-9ad5-a7f2e229ac2b.png)
 
-&nbsp;
-
 ## Variables
 
 #### App elements
