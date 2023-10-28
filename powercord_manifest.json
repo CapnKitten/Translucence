@@ -1,8 +1,0 @@
-{
-    "name": "Translucence",
-    "description": "A translucent/frosted glass Discord theme",
-    "version": "1.0.6.3",
-    "author": "CapnKitten",
-    "theme": "Translucence.theme.css",
-    "license": "MIT"
-}
