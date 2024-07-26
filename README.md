@@ -5,6 +5,8 @@
 Current version: v1.0.6.3 (26/02/2021)
 
 [BetterDiscord download](https://betterdiscord.app/theme/Translucence)
+<br>
+[View source files](https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Translucence)
 
 Vencord link
 ```
