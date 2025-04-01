@@ -1,6 +1,6 @@
 /**
  * @name Translucence
- * @version 1.0.6.3
+ * @version 1.0.6.4
  * @description A translucent/frosted glass Discord theme
  * @author CapnKitten
  *
@@ -13,50 +13,75 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
+	/* APP ELEMENTS */
 	--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
 	--app-blur: 6px;
 	--app-margin: 24px;
-	--app-radius: 8px; /*	-	*/
-	
+	--app-radius: 8px;
+
+	/* ACCENT HSL AND TEXT COLOR SETTINGS */
 	--accent-hue: 156;
 	--accent-saturation: 77.5%;
 	--accent-lightness: 47.1%;
 	--accent-opacity: 1;
-	--accent-text-color: #000; /*	-	*/
+	--accent-text-color: hsl(0,0%,0%);
 
-	--sidebar-color: rgba(0,0,0,0.4);
-	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+	/* SIDEBARS AND CHAT AREA COLOR SETTINGS */
+	--sidebar-color: hsl(0,0%,0%,0.4);
+	--main-content-color: hsl(0,0%,0%,0.2);
 
-	--message-color: rgba(0,0,0,0.4);
+	/* MESSAGE SETTINGS */
+	--message-color: hsl(0,0%,0%,0.4);
 	--message-radius: 8px;
 	--message-padding-top: 8px;
-	--message-padding-side: 8px; /*	-	*/
-	
+	--message-padding-side: 8px;
+
+	/* REPLY HSL COLOR SETTINGS */
 	--reply-hue: 226;
 	--reply-saturation: 77.4%;
 	--reply-lightness: 61.8%;
-	--reply-opacity: 1; /*	-	*/
+	--reply-opacity: 1;
 
+	/* TEXTAREA SETTINGS */
 	--textarea-color: 255,255,255;
-	--textarea-alpha: 0.1;
+	--textarea-alpha: 1.1;
 	--textarea-alpha-focus: 0.15;
-	--textarea-text-color: #fff;
-	--textarea-radius: 22px;  /*	-	*/
+	--textarea-text-color: hsl(0,0%,100%);
+	--textarea-radius: 22px;
 
-	--card-color: rgba(0,0,0,0.4);
-	--card-color-hover: rgba(0,0,0,0.5);
-	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
-	
+	/* CARD SETTINGS */
+	--card-color: hsl(0,0%,0%,0.4);
+	--card-color-hover: hsl(0,0%,0%,0.5);
+	--card-color-select: hsl(0,0%,0%,0.7);
+
+	/* BUTTON SETTINGS */
 	--button-height: 32px;
 	--button-padding: 0 16px;
-	--button-action-color: #000;
-	--button-radius: 16px; /*	-	*/
+	--button-action-color: hsl(0,0%,0%);
+	--button-radius: 16px;
+}
 
-	--interactive-normal: #aaa;
-	--interactive-hover: #ddd;
-	--interactive-active: #fff;
-	--interactive-muted: #777; /*	-	*/
+.visual-refresh.theme-dark {
+	/* TEXT COLOR SETTINGS */
+	--text-primary: hsl(0,0%,100%);
+	--text-secondary: hsl(0,0%,77%);
 
-	--background-modifier-hover: rgba(255,255,255,0.075);
-	--background-modifier-selected: rgba(255,255,255,0.125);
+	/* CHANNEL COLOR SETTINGS */
+	--channels-default: hsl(0,0%,62%);
+	--channel-icon: hsl(0,0%,62%);
+
+	/* ICON COLOR SETTINGS */
+	--icon-primary: hsl(0,0%,96%);
+	--icon-secondary: hsl(0,0%,84%);
+	--icon-tertiary: hsl(0,0%,71%);
+
+	/* INTERACTIVE COLOR SETTINGS */
+	--interactive-normal: hsl(0,0%,79%);
+	--interactive-hover: hsl(0,0%,91%);
+	--interactive-active: hsl(0,0%,100%);
+	--interactive-muted: hsl(0,0%,43%);
+
+	/* BACKGROUND MODIFIER SETTINGS */
+	--background-modifier-hover: hsl(0,0%,100%,0.075);
+	--background-modifier-selected: hsl(0,0%,100%,0.125);
 }
