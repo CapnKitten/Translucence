@@ -44,7 +44,7 @@
 
 	/* TEXTAREA SETTINGS */
 	--textarea-color: 255,255,255;
-	--textarea-alpha: 1.1;
+	--textarea-alpha: 0.1;
 	--textarea-alpha-focus: 0.15;
 	--textarea-text-color: hsl(0,0%,100%);
 	--textarea-radius: 22px;
