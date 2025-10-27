@@ -14,7 +14,7 @@
 
 :root {
 	/* APP ELEMENTS */
-	--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);
+	--app-bg: url(https://i.ibb.co/5h7854Wy/bgmVeyt.jpg);
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px;
@@ -61,27 +61,30 @@
 	--button-radius: 16px;
 }
 
-.visual-refresh.theme-dark {
-	/* TEXT COLOR SETTINGS */
-	--text-primary: hsl(0,0%,100%);
-	--text-secondary: hsl(0,0%,77%);
+@supports (color:color-mix(in lch,red,blue)) {
+    .visual-refresh .theme-dark,
+    .visual-refresh.theme-dark {
+		/* TEXT COLOR SETTINGS */
+		--text-primary: hsl(0,0%,100%);
+		--text-secondary: hsl(0,0%,77%);
 
-	/* CHANNEL COLOR SETTINGS */
-	--channels-default: hsl(0,0%,62%);
-	--channel-icon: hsl(0,0%,62%);
+		/* CHANNEL COLOR SETTINGS */
+		--channels-default: hsl(0,0%,62%);
+		--channel-icon: hsl(0,0%,62%);
 
-	/* ICON COLOR SETTINGS */
-	--icon-primary: hsl(0,0%,96%);
-	--icon-secondary: hsl(0,0%,84%);
-	--icon-tertiary: hsl(0,0%,71%);
+		/* ICON COLOR SETTINGS */
+		--icon-primary: hsl(0,0%,96%);
+		--icon-secondary: hsl(0,0%,84%);
+		--icon-tertiary: hsl(0,0%,71%);
 
-	/* INTERACTIVE COLOR SETTINGS */
-	--interactive-normal: hsl(0,0%,79%);
-	--interactive-hover: hsl(0,0%,91%);
-	--interactive-active: hsl(0,0%,100%);
-	--interactive-muted: hsl(0,0%,43%);
+		/* INTERACTIVE COLOR SETTINGS */
+		--interactive-normal: hsl(0,0%,79%);
+		--interactive-hover: hsl(0,0%,91%);
+		--interactive-active: hsl(0,0%,100%);
+		--interactive-muted: hsl(0,0%,43%);
 
-	/* BACKGROUND MODIFIER SETTINGS */
-	--background-modifier-hover: hsl(0,0%,100%,0.075);
-	--background-modifier-selected: hsl(0,0%,100%,0.125);
+		/* BACKGROUND MODIFIER SETTINGS */
+		--background-modifier-hover: hsl(0,0%,100%,0.075);
+		--background-modifier-selected: hsl(0,0%,100%,0.125);
+    }
 }
