@@ -1,6 +1,6 @@
 /**
  * @name Translucence
- * @version 1.0.7
+ * @version 2.0.0
  * @description A translucent/frosted glass Discord theme
  * @author CapnKitten
  *
@@ -14,63 +14,78 @@
 
 :root {
 	/* APP ELEMENTS */
-	--app-bg: url(https://i.ibb.co/5h7854Wy/bgmVeyt.jpg);
+	--app-bg: url(https://i.ibb.co/WNrbr1Yz/Alpine-Amnesia.png);
 	--app-blur: 6px;
 	--app-margin: 24px;
 	--app-radius: 8px;
 
 	/* ACCENT HSL AND TEXT COLOR SETTINGS */
-	--accent-hue: 156;
-	--accent-saturation: 77.5%;
-	--accent-lightness: 47.1%;
-	--accent-opacity: 1;
+	--accent-hue: 260;
+    --accent-saturation: 83%;
+    --accent-lightness: 72%;
+	--accent-opacity: 0.8;
 	--accent-text-color: hsl(0,0%,0%);
 
 	/* SIDEBARS AND CHAT AREA COLOR SETTINGS */
-	--sidebar-color: hsl(0,0%,0%,0.4);
-	--main-content-color: hsl(0,0%,0%,0.2);
+	--sidebar-color: hsl(0,0%,0%,0.34);
+	--main-content-color: hsl(0,0%,0%,0.27);
 
 	/* MESSAGE SETTINGS */
-	--message-color: hsl(0,0%,0%,0.4);
-	--message-radius: 8px;
+	--message-color: hsl(0,0%,0%,0.19);
+    --message-color-hover: hsl(0,0%,0%,0.28);
+	--message-radius: 18px;
 	--message-padding-top: 8px;
 	--message-padding-side: 8px;
 
 	/* REPLY HSL COLOR SETTINGS */
-	--reply-hue: 226;
-	--reply-saturation: 77.4%;
-	--reply-lightness: 61.8%;
+	--reply-hue: 328;
+    --reply-saturation: 79%;
+    --reply-lightness: 64%;
 	--reply-opacity: 1;
 
 	/* TEXTAREA SETTINGS */
 	--textarea-color: 255,255,255;
-	--textarea-alpha: 0.1;
-	--textarea-alpha-focus: 0.15;
+    --textarea-alpha: 0.125;
+    --textarea-alpha-focus: 0.165;
 	--textarea-text-color: hsl(0,0%,100%);
-	--textarea-radius: 22px;
+	--textarea-radius: 28px;
 
 	/* CARD SETTINGS */
-	--card-color: hsl(0,0%,0%,0.4);
-	--card-color-hover: hsl(0,0%,0%,0.5);
-	--card-color-select: hsl(0,0%,0%,0.7);
+	--card-color: hsl(0,0%,100%,0.14);
+    --card-color-hover: hsl(0,0%,100%,0.18);
+    --card-color-select: hsl(0,0%,100%,0.21);
+	--card-radius: 18px;
 
 	/* BUTTON SETTINGS */
 	--button-height: 32px;
-	--button-padding: 0 16px;
+	--button-padding: 16px;
 	--button-action-color: hsl(0,0%,0%);
 	--button-radius: 16px;
+
+	/* POPOUT SETTINGS */
+    --popout-color: hsl(0,0%,0%,0.46);
+    --popout-blur: 6px;
+    --popout-radius: 18px;
+    --popout-shadow: 0 20px 40px hsl(0,0%,0%,0.44);
+    --popout-shadow-border: inset 0 1px 1px hsl(0,100%,100%,0.35), inset 0 -1px 2px hsl(0,0%,0%,0.25), inset 0 0 0 1px hsl(0,100%,100%,0.04); /* Set this variable to none to remove the popout liquid glass border */
+
+	/* LIQUID GLASS SETTINGS */
+	--light-angle: 40deg;
+
+	/* Remove the opening and closing comment brackets to remove the liquid glass shadow */
+	/*--liquid-glass-shadow: none;*/
 }
 
-@supports (color:color-mix(in lch,red,blue)) {
-    .visual-refresh .theme-dark,
-    .visual-refresh.theme-dark {
+@supports (color: color-mix(in lch, red, blue)) {
+	.theme-dark {
 		/* TEXT COLOR SETTINGS */
 		--text-primary: hsl(0,0%,100%);
 		--text-secondary: hsl(0,0%,77%);
-
-		/* CHANNEL COLOR SETTINGS */
-		--channels-default: hsl(0,0%,62%);
-		--channel-icon: hsl(0,0%,62%);
+		--text-default: hsl(0,0%,86%);
+		--text-muted: hsl(0,0%,72%);
+		--channels-default: hsl(0,0%,73%);
+		--channel-icon: hsl(0,0%,73%);
+		--text-strong: hsl(0,0%,100%);
 
 		/* ICON COLOR SETTINGS */
 		--icon-primary: hsl(0,0%,96%);
@@ -85,6 +100,13 @@
 
 		/* BACKGROUND MODIFIER SETTINGS */
 		--background-modifier-hover: hsl(0,0%,100%,0.075);
+		--background-modifier-active: hsl(0,0%,100%,0.1);
 		--background-modifier-selected: hsl(0,0%,100%,0.125);
-    }
+		--background-modifier-accent: hsl(0,0%,100%,0.175);
+		--background-primary: transparent;
+
+		/* ACCENT COLORED TEXT AND LINK SETTINGS */
+		--text-brand: hsl(var(--accent-hsl));
+		--text-link: hsl(var(--accent-hsl));
+	}
 }
